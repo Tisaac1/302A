@@ -1,0 +1,57 @@
+
+body {
+    font-family: sans-serif;
+    margin: 2rem;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #search-bar {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #search-btn {
+    padding: 1rem;
+    background-color: #0a64c4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #dog-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #dog-images img {
+    width: 200px;
+    margin-bottom: 1rem;
+  }
+  
+  #pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  #pagination button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #pagination button:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
